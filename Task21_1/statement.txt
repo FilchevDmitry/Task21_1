@@ -8,3 +8,5 @@ John Randall 2.10.2020 23400
 Sam Anderson 15.7.2020 6500
 Margo Moorer 24.2.2019 12350
 ivan mask 12.11.2022 321
+a d 12.12.2020 25
+dima g 12.11.2020 12365

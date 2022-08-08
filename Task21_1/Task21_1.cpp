@@ -76,11 +76,11 @@ int main()
 		std::cin >> sum;
 		payments.push_back(Pay());
 		payments[i].f_name = f_name;
-		payments[i].l_name = f_name;
+		payments[i].l_name = l_name;
 		payments[i].data = date;
 		payments[i].sum = sum;
 		std::ofstream text("statement.txt", std::ios::app);
-		text << f_name << " "<<l_name<<" "<< date << " " << sum << std::endl;
+		text <<std::endl<< payments[i].f_name << " "<< payments[i].l_name <<" "<< payments[i].data << " " << payments[i].sum;
 		text.close();
 		print(payments);
 	}
@@ -89,5 +89,4 @@ int main()
 		std::cout << "Invalid input" << std::endl;
 	}
 
-	
 }
